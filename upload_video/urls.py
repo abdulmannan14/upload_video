@@ -6,6 +6,7 @@ from django.views.static import serve
 from django.conf.urls import url
 # lkgnfdkl;n
 # dsfdfdsfdsf
+# dsfdsfdf
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('video.urls')),
