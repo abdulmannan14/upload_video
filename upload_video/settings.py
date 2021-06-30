@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-lks22e8mqj60n=kq_2ix=4=g=89_chamr5aj1l&g&y4luzwmz4
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','video-uploader-mannan.herokuapp.com']
 
 
 # Application definition
