@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     'video',
     'accounts',
     'multiselectfield',
+    'labels',
+    'rest_framework',
+    'knox',
 ]
 
 MIDDLEWARE = [
@@ -135,3 +138,13 @@ EMAIL_USE_TLS= True
 EMAIL_PORT=587
 EMAIL_HOST_USER='mannanmaan1425@gmail.com'
 EMAIL_HOST_PASSWORD='mookjormpdmxlbty'
+
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        # 'rest_framework.authentication.BasicAuthentication',
+        # 'rest_framework.authentication.SessionAuthentication',
+        'knox.auth.TokenAuthentication',
+    ]
+}
